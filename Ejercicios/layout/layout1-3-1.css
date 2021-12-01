@@ -1,0 +1,33 @@
+/*Miguel Ángel Pacheco Valderrama*/
+body {
+    width: 100%; height: 100%;
+}
+header {
+    height: 5em;
+    background-color: gray;
+}
+.principal {
+    height: 30em;
+    display: flex;
+    background-color: orange;
+}
+section {
+    margin: 5px;
+    border: solid 1px white;
+    padding: 10px;
+}
+.izquierda {
+    flex-grow: 1;
+}
+.centro {
+    flex-grow: 3;
+    background-color: lightgreen;
+    padding: 20px;
+}
+.derecha {
+    flex-grow: 1;
+}
+footer {
+    height: 5em;
+    background-color: blue;
+}

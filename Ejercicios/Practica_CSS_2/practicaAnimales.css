@@ -1,0 +1,102 @@
+body {
+    width: 800px;
+    margin: auto;
+    border: gray solid 1px;
+}
+.entero {
+    display: flex;
+    border-bottom: gray solid 1px;
+}
+h1 {
+    font-size: 30pt;
+    color: blue;
+    font-style: italic;
+    margin: 0;
+}
+.nav {
+    display: flex;
+    border-bottom: gray solid 1px; 
+}
+.nav ul{
+    list-style-type: none;
+}
+.nav li {
+    float: left;
+    margin-right: 5px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+/*parte de arriba*/
+
+.enlaces {
+    width: 200px;
+    background-color: lightgray;
+    border-bottom: gray solid 1px; 
+    border-right: gray solid 1px;
+    height: 50%;
+}
+.enlaces form {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.enlaces label {
+    font-weight: bolder;
+}
+.enlaces ul {
+    list-style-type: none;
+    margin-top: 0px;
+}
+.enlaces li {
+    margin-left: -30px;
+}
+.enlaces_ul a{
+    text-decoration: none;
+    color: black;
+}
+.enlaces_ul a:hover {
+    background-color: black;
+    color: white;
+}
+.enlaces_ul {
+    border-top: gray solid 1px; 
+}
+.enlaces_ul li {
+    border-bottom: gray solid 1px; 
+}
+.enlaces h3 {
+    margin: 0;
+}
+/*enlaces izquierda*/
+
+.derecha {
+    margin: 5px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+}
+.derecha img {
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.imagenes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.imagenes div{
+ margin: 5px;
+ padding: 5px;
+ border: gray solid 1px;
+ width: 270px;
+}
+/*parte derecha*/
+
+.pie {
+    text-align: center;
+    margin: 5px;
+}
+/*footer*/
