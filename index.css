@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    background-image: url(https://blog.hubspot.es/hubfs/como-hacer-una-pagina-web-en-html.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    tex
+}
+
+h1, p, h2, a {
+    color: white;
+
+}
+
+header {
+    background-color: darkslategrey;
+    padding: 5px;
+}
+
+.entero {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.entero div {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    border: solid black 1px;
+    background-color: darkslategrey;
+}
+
+.entero li {
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+.entero a{
+    text-decoration: none;
+}
+
+.entero a:hover {
+    background-color: white;
+    color: black;
+    font-size: large;
+}
+footer {
+    background-color: darkslategrey;
+    padding: 5px;
+}
+
